@@ -13,8 +13,35 @@
     color: white;
 }
 
-.ms-btn-bg {
+
+/* background color button */
+
+.ms-bg-access {
     background-color: #363636;
 }
 
+.ms-bg-red {
+    background-color: #cd3d0f;
+}
+
 /* jumbotron */
+
+.jumbotron {
+    height: 750px;
+}
+
+div.jumbotron img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.ms-banner {
+    width: 20rem;
+}
+
+/* 
+.bg-jumbo {
+    height: 100%;
+    background-size: cover;
+    background-image: url(../img/jumbo-bg.png);
+} */
