@@ -8,12 +8,6 @@
     width: 100px;
 }
 
-.ms-btn-border {
-    border-radius: 20px;
-    color: white;
-}
-
-
 /* background color button */
 
 .ms-bg-access {
@@ -24,19 +18,23 @@
     background-color: #cd3d0f;
 }
 
-/* jumbotron */
+/* jumbotron + image*/
 
 .jumbotron {
     height: 750px;
 }
 
-div.jumbotron img {
-    height: 100%;
+div img {
+    width: 100%;
     object-fit: cover;
 }
 
 .ms-banner {
     width: 20rem;
+}
+
+.ms-rounded {
+    border-radius: 20px;
 }
 
 /* 
@@ -45,3 +43,10 @@ div.jumbotron img {
     background-size: cover;
     background-image: url(../img/jumbo-bg.png);
 } */
+
+/* main */
+
+p.text-uppercase {
+    color: #0273ce;
+    margin-bottom: 0;
+}
