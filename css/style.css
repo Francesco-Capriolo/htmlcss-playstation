@@ -1,3 +1,5 @@
+/* header */
+
 .pre-header {
     background-color: black;
 }
@@ -5,3 +7,14 @@
 .pre-header img {
     width: 100px;
 }
+
+.ms-btn-border {
+    border-radius: 20px;
+    color: white;
+}
+
+.ms-btn-bg {
+    background-color: #363636;
+}
+
+/* jumbotron */
