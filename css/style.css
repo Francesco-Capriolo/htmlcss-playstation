@@ -26,6 +26,7 @@
 
 div img {
     width: 100%;
+    height: 100%;
     object-fit: cover;
 }
 
@@ -49,4 +50,31 @@ div img {
 p.text-uppercase {
     color: #0273ce;
     margin-bottom: 0;
+}
+
+.ms-object {
+    object-fit: contain;
+}
+
+.ms-height-console {
+    height: 700px;
+}
+
+/* 
+div.album-selected {
+    width: 95%;
+    margin: 20px auto;
+    flex-wrap: wrap;
+    gap: 1%;
+}
+ */
+div.mini-card {
+    width: calc((100% - 5%) / 5);
+}
+
+
+@media screen and (max-width: 768px) {
+    div.mini-card {
+        width: calc((100% - 5%) / 3);
+    }
 }
