@@ -82,3 +82,11 @@ div.mini-card {
 .ms-bg-banner {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
+
+.ms-bg-black {
+    background-color: black;
+}
+
+.ms-height-img img {
+    height: 80%;
+}
