@@ -12,10 +12,15 @@ p {
     font-weight: 600;
 }
 
-/* background color button */
+/* button and background color */
 
 .ms-rounded {
     border-radius: 20px;
+}
+
+.ms-rounded:hover {
+    padding: 2px;
+    border: 2px solid blue;
 }
 
 .ms-bg-btn-access {
@@ -28,6 +33,10 @@ p {
 
 .ms-bg-btn-plus {
     background-color: #d9dadc;
+}
+
+.btn:hover {
+    background-color: #00439c;
 }
 
 /* banner  e background */
@@ -62,11 +71,6 @@ p {
     background-color: #161c3b;
 }
 
-
-footer {
-    background-color: #00439c;
-}
-
 /* image */
 
 div img {
@@ -96,14 +100,21 @@ div.mini-card {
     width: calc((100% - 5%) / 5);
 }
 
+div.mini-card:hover {
+    border-bottom: 2px solid blue;
+}
+
 @media screen and (max-width: 768px) {
     div.mini-card {
         width: calc((100% - 5%) / 3);
     }
 }
 
-
 /* footer */
+
+footer {
+    background-color: #00439c;
+}
 
 .ms-logo-footer {
     filter: brightness(0) invert(1);
