@@ -18,11 +18,11 @@ p {
     border-radius: 20px;
 }
 
-.ms-bg-access {
+.ms-bg-btn-access {
     background-color: #363636;
 }
 
-.ms-bg-red {
+.ms-bg-btn-buy {
     background-color: #cd3d0f;
 }
 
@@ -51,15 +51,15 @@ p {
 }
 
 .ms-bg-black {
-    background-color: black;
-}
-
-.ms-bg-play-now {
-    background-image: url(../img/ps-now-april-featured-image-block.png);
+    background-color: #1f1f1f;
 }
 
 .ms-bg-play-plus {
     background-color: #bebcbb;
+}
+
+.ms-bg-play-now {
+    background-color: #161c3b;
 }
 
 /* image */
