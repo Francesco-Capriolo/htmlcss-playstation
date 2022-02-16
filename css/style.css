@@ -20,8 +20,15 @@
 
 /* jumbotron + image*/
 
-.jumbotron {
-    height: 750px;
+.banner {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 700px;
+}
+
+.ms-bg-jumbo {
+    background-image: url(../img/jumbo-bg.png);
 }
 
 div img {
@@ -30,20 +37,20 @@ div img {
     object-fit: cover;
 }
 
-.ms-banner {
-    width: 20rem;
-}
-
 .ms-rounded {
     border-radius: 20px;
 }
 
-/* 
-.bg-jumbo {
+.ms-description {
     height: 100%;
-    background-size: cover;
-    background-image: url(../img/jumbo-bg.png);
-} */
+}
+
+.ms-img-title {
+    width: 30rem;
+    height: 5rem;
+    object-fit: contain;
+}
+
 
 /* main */
 
@@ -60,21 +67,22 @@ p.text-uppercase {
     height: 700px;
 }
 
-/* 
-div.album-selected {
-    width: 95%;
-    margin: 20px auto;
-    flex-wrap: wrap;
-    gap: 1%;
-}
- */
 div.mini-card {
     width: calc((100% - 5%) / 5);
 }
-
 
 @media screen and (max-width: 768px) {
     div.mini-card {
         width: calc((100% - 5%) / 3);
     }
+}
+
+/* banner */
+
+.ms-bg-banner {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+}
+
+.ms-img-banner {
+    width: 50rem;
 }
