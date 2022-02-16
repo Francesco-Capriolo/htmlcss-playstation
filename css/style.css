@@ -96,16 +96,3 @@ div.mini-card {
         width: calc((100% - 5%) / 3);
     }
 }
-
-/* main */
-
-p.text-uppercase {
-    color: #0273ce;
-    margin-bottom: 0;
-}
-
-
-/* .ms-height-banner {
-    height: 700px;
-}
- */
