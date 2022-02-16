@@ -30,7 +30,7 @@ p {
     background-color: #d9dadc;
 }
 
-/* banner */
+/* banner  e background */
 
 .banner {
     background-size: cover;
@@ -60,6 +60,11 @@ p {
 
 .ms-bg-play-now {
     background-color: #161c3b;
+}
+
+
+footer {
+    background-color: #00439c;
 }
 
 /* image */
@@ -95,4 +100,24 @@ div.mini-card {
     div.mini-card {
         width: calc((100% - 5%) / 3);
     }
+}
+
+
+/* footer */
+
+.ms-logo-footer {
+    filter: brightness(0) invert(1);
+}
+
+.ms-footer-globe {
+    width: 1rem;
+}
+
+.ms-footer-logo,
+.ms-logo-footer {
+    width: 10rem;
+}
+
+footer ul li {
+    padding: .3rem;
 }
