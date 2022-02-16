@@ -8,7 +8,15 @@
     width: 100px;
 }
 
+p {
+    font-weight: 600;
+}
+
 /* background color button */
+
+.ms-rounded {
+    border-radius: 20px;
+}
 
 .ms-bg-access {
     background-color: #363636;
@@ -18,12 +26,19 @@
     background-color: #cd3d0f;
 }
 
-/* jumbotron + image*/
+.ms-bg-btn-plus {
+    background-color: #d9dadc;
+}
+
+/* banner */
 
 .banner {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+}
+
+.ms-height-jumbo {
     height: 700px;
 }
 
@@ -31,13 +46,27 @@
     background-image: url(../img/jumbo-bg.png);
 }
 
+.ms-bg-banner {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+}
+
+.ms-bg-black {
+    background-color: black;
+}
+
+.ms-bg-play-now {
+    background-image: url(../img/ps-now-april-featured-image-block.png);
+}
+
+.ms-bg-play-plus {
+    background-color: #bebcbb;
+}
+
+/* image */
+
 div img {
     width: 100%;
     object-fit: cover;
-}
-
-.ms-rounded {
-    border-radius: 20px;
 }
 
 .ms-description {
@@ -45,25 +74,17 @@ div img {
 }
 
 .ms-img-title {
-    width: 30rem;
+    width: 20rem;
     height: 5rem;
     object-fit: contain;
-}
-
-
-/* main */
-
-p.text-uppercase {
-    color: #0273ce;
-    margin-bottom: 0;
 }
 
 .ms-object {
     object-fit: contain;
 }
 
-.ms-height-console {
-    height: 700px;
+.ms-height-img img {
+    height: 80%;
 }
 
 div.mini-card {
@@ -76,16 +97,15 @@ div.mini-card {
     }
 }
 
-/* banner */
+/* main */
 
-.ms-bg-banner {
-    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+p.text-uppercase {
+    color: #0273ce;
+    margin-bottom: 0;
 }
 
-.ms-bg-black {
-    background-color: black;
-}
 
-.ms-height-img img {
-    height: 80%;
+/* .ms-height-banner {
+    height: 700px;
 }
+ */
