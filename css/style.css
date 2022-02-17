@@ -3,7 +3,7 @@
 header {
     position: sticky;
     top: 0;
-    z-index: 1;
+    z-index: 2;
 }
 
 .pre-header {
@@ -19,17 +19,6 @@ p {
 }
 
 /* button and background color */
-
-.ms-rounded {
-    border-radius: 20px;
-}
-
-.ms-rounded:hover {
-    width: 95%;
-    padding: 2px;
-    border: 2px solid blue;
-    opacity: .5;
-}
 
 .ms-bg-btn-access {
     background-color: #363636;
@@ -86,6 +75,18 @@ div img {
     object-fit: cover;
 }
 
+.ms-rounded {
+    padding: 2px;
+    border-radius: 20px;
+    border: 2px solid transparent;
+}
+
+.ms-rounded:hover {
+    opacity: .8;
+    border: 2px solid blue;
+    transform: translateY(-.5rem);
+}
+
 .ms-description {
     height: 100%;
 }
@@ -93,10 +94,6 @@ div img {
 .ms-img-title {
     width: 20rem;
     height: 5rem;
-    object-fit: contain;
-}
-
-.ms-object {
     object-fit: contain;
 }
 
@@ -110,14 +107,21 @@ div.mini-card img {
     transform: scale(1);
 }
 
+div.mini-card p {
+    position: relative;
+    z-index: 1;
+    border-bottom: 2px solid transparent;
+}
+
 div.mini-card:hover {
+
     border-bottom: 2px solid blue;
 }
 
 div.mini-card:hover img {
-    transform: scale(1.1);
     opacity: 1;
     transition: .5s;
+    transform: scale(1.1);
 }
 
 @media screen and (max-width: 768px) {
