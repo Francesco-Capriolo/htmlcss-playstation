@@ -1,5 +1,10 @@
 /* header */
 
+header {
+    position: sticky;
+    top: 0;
+}
+
 .pre-header {
     background-color: black;
 }
@@ -19,8 +24,10 @@ p {
 }
 
 .ms-rounded:hover {
+    width: 95%;
     padding: 2px;
     border: 2px solid blue;
+    opacity: .5;
 }
 
 .ms-bg-btn-access {
@@ -96,18 +103,35 @@ div img {
     height: 80%;
 }
 
-div.mini-card {
-    width: calc((100% - 5%) / 5);
+div.mini-card img {
+    width: 70%;
+    opacity: .5;
+    transform: scale(1);
+}
+
+div.mini-card p {
+    height: 30px;
 }
 
 div.mini-card:hover {
     border-bottom: 2px solid blue;
 }
 
+div.mini-card:hover img {
+    transform: scale(1.1);
+    opacity: 1;
+    transition: .5s;
+}
+
 @media screen and (max-width: 768px) {
-    div.mini-card {
-        width: calc((100% - 5%) / 3);
+    div.mini-card:hover {
+        border-bottom: none;
     }
+
+    div.mini-card:hover img {
+        border-bottom: 2px solid blue;
+    }
+
 }
 
 /* footer */
